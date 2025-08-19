@@ -37,7 +37,7 @@ const Buckets: React.FC<{ showOverview?: boolean }> = ({ showOverview }) => {
       )}
       <Grid container spacing={2}>
         {buckets.map((b, i) => (
-          <Grid item xs={12} md={6} key={b.id}>
+          <Grid {...({ item: true, xs: 12, md: 6, key: b.id } as any)}>          
             <Card>
               <CardContent>
                 <Typography variant="h6" sx={{ color: allocationColors[i % allocationColors.length] }}>{b.name}</Typography>
