@@ -1,4 +1,4 @@
-# Getting Started with Create React Apps
+# Getting Started with Create React Apps.
 
 #This is the testing application
 
